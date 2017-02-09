@@ -13,4 +13,4 @@ The individual vcf files for the crosses are then processed with cross.het.pl wh
 
 cross.polar.pl will then polarize the .het.txt file with the expected het sites, generating three files .shared.txt, .shared.miss.txt, .shared.ex.txt. The first one contains polarized het sites that are found in both data sets and allele counts at each site; it will then be imported into R. The .shared.miss.txt contains expected het sites missing in the .het.txt and vice versa for .shared.ex.txt.
 
-The R script contains the codes used for trimming the SNPs based on read depth, bias correction, recombination decay estimates, and plotting the data.
+The R script drive_new.R contains the codes used for trimming the SNPs based on read depth, bias correction, recombination decay estimates, and plotting the data.
